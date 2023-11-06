@@ -6,7 +6,7 @@
     font-weight: 400;
     height: 100vh;
     margin: 0;
-    padding: 8px;
+    padding: 0;
 }
 
 @media screen and (min-width: 601px) {
@@ -48,10 +48,12 @@ a {
 
  .title {
     text-align: center;
+    padding: 8px;
 }
 
 .mission {
     text-align: center;
+    padding: 8px;
 }
 
 .mission p {
@@ -61,6 +63,7 @@ a {
 
 .info {
     text-align: center;
+    padding: 8px;
 }
 
 .blue {
