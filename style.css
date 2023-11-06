@@ -1,0 +1,71 @@
+
+ body {
+    background-color: rgb(42, 41, 44);
+    color: rgb(224, 221, 212);
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 400;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ .main-content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+.title {
+    margin-top: 48px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.mission {
+    text-align: center;
+}
+
+.mission p {
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+p {
+    margin-top: 48px;
+}
+
+.blue {
+    color: rgb(105, 184, 236);
+}
+
+.green {
+    color: rgb(87, 209, 118);
+}
+
+.yellow {
+    color: rgb(204, 224, 87)
+}
+
+.purple {
+    color: #da8ee9;
+}
+
+.cursor {
+    animation-name: cursor-blink; 
+    animation-duration: 0.6s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes cursor-blink {
+    from {opacity: 0;}
+    to {opacity: 0.8;}
+  }
