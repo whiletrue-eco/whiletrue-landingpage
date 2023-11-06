@@ -3,11 +3,36 @@
     background-color: rgb(42, 41, 44);
     color: rgb(224, 221, 212);
     font-family: monospace;
-    font-size: x-large;
     font-weight: 400;
     height: 100vh;
     margin: 0;
+    padding: 8px;
 }
+
+@media screen and (min-width: 601px) {
+    .title {
+        font-size: 48px;
+    }
+    .mission {
+      font-size: 24px;
+    }
+    .info {
+        font-size: 24px;
+    }
+  }
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 32px;
+    }
+    .mission {
+      font-size: 16px;
+    }
+    .info {
+        font-size: 16px;
+    }
+  }
 
 a {
     text-decoration: none;
@@ -21,9 +46,7 @@ a {
     justify-content: space-evenly;
  }
 
-.title {
-    margin-top: 48px;
-    font-size: 48px;
+ .title {
     text-align: center;
 }
 
@@ -38,10 +61,6 @@ a {
 
 .info {
     text-align: center;
-}
-
-p {
-    margin-top: 48px;
 }
 
 .blue {
