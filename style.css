@@ -32,7 +32,11 @@ a {
 
 .mission p {
     margin-bottom: 0px;
-    margin-top: 12px;
+    margin-top: 16px;
+}
+
+.info {
+    text-align: center;
 }
 
 p {
